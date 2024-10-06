@@ -38,7 +38,8 @@
             <li><code>&lt;details&gt;</code> -  collapses a part of text </li>
             <li><code>&lt;article&gt;</code> - The purpose of the article element is to represent a self-contained piece of content.</li>
             <li><code>&lt;section&gt;</code> - The purpose of the section is to divide the content into sections by grouping similar content together.</li>
-            <li><code>&lt;aside&gt;</code> - The purpose of the aside element is to represent content that is tangentially related to the content around it.</li>	
+            <li><code>&lt;aside&gt;</code> - The purpose of the aside element is to represent content that is tangentially related to the content around it.</li>
+            <><code>&lt;a&gt; and &lt;link&gt;</code>The difference is that the <code>&lt;a&gt;</code> element is used to create hyperlinks within the content, while the <code>&lt;link&gt;</code> element is used to link external resources to the document. for example <code>&lt;a href="https://www.example.com"&gt;Example&lt;/a&gt;</code> and <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></li>	
         </ul>
         <details>
             <summary>Show Theory</summary>
@@ -66,14 +67,15 @@
                      <!-- Web Server -->
                      <h3>Web Server</h3>
                      <p>
-                         A web server stores, processes, and delivers web pages to clients. It handles requests from browsers using HTTP or HTTPS.
+                         A web server stores, processes, and delivers web pages to clients. It handles requests from browsers using HTTP or HTTPS. for example <code>Apache</code> and <code>Nginx</code> are popular web servers.
                      </p>
                  
                      <!-- Web Browser -->
                      <h3>Web Browser</h3>
                      <p>
-                         A web browser is a client software used to access web pages. It processes HTML, CSS, and JavaScript to display websites and interacts with web servers to fetch content.
+                         A web browser is a client software used to access web pages. It processes HTML, CSS, and JavaScript to display websites and interacts with web servers to fetch content. examples are <code>Google Chrome</code>, <code>Firefox</code>, <code>Safari</code>, <code>Microsoft Edge</code>, and <code>Opera</code>.
                      </p>
+                     <p>How can content be stored on a web server? As files</p>
                      <p> Other facts are for example that the first website was created in 1991 by Tim Berners-Lee and it was about the World Wide Web project itself. </p>
                      <p> Combiantors are used to select elements with a specific attribute value. For example, <code>p[title="hello"]</code> selects all paragraph elements with <code>title="hello"</code> <br>
                     or <code>p[title~="hello"]</code> selects all paragraph elements with <code>title</code> containing the word <code>hello</code>. All the known combinators are: <code>descendant</code>, <code>child</code>, <code>adjacent sibling</code>, <code>general sibling</code>.
@@ -82,6 +84,51 @@
                     <code>child</code> - Selects all direct children of a specified element <br>
                     <code>adjacent sibling</code> - Selects all elements that are the adjacent siblings of a specified element <br>
                     <code>general sibling</code> - Selects all elements that are siblings of a specified element <br>
+                    <section id="web-server-browser">
+                        <h2>Differences between Web Server and Web Browser</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Aspect</th>
+                                    <th>Web Server</th>
+                                    <th>Web Browser</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Definition</strong></td>
+                                    <td>Software or hardware that serves web content.</td>
+                                    <td>Software application that displays web content.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Function</strong></td>
+                                    <td>Handles requests and delivers web pages to clients.</td>
+                                    <td>Requests and renders web pages for users.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Purpose</strong></td>
+                                    <td>Serves content over the Internet.</td>
+                                    <td>Allows users to access and interact with web content.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Role</strong></td>
+                                    <td>Responds to client requests.</td>
+                                    <td>Initiates requests to web servers.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Data Handling</strong></td>
+                                    <td>Stores and serves files (HTML, CSS, images).</td>
+                                    <td>Processes and displays content for user interaction.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Examples</strong></td>
+                                    <td>Apache, Nginx, Microsoft IIS.</td>
+                                    <td>Google Chrome, Mozilla Firefox, Safari.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    
                      </p>
 
                     </div>
