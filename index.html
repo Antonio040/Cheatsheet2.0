@@ -36,6 +36,9 @@
             <li><code>&lt;li&gt;</code> - List Item</li>
             <li><code>&lt;table&gt;</code> - Table</li>
             <li><code>&lt;details&gt;</code> -  collapses a part of text </li>
+            <li><code>&lt;article&gt;</code> - The purpose of the article element is to represent a self-contained piece of content.</li>
+            <li><code>&lt;section&gt;</code> - The purpose of the section is to divide the content into sections by grouping similar content together.</li>
+            <li><code>&lt;aside&gt;</code> - The purpose of the aside element is to represent content that is tangentially related to the content around it.</li>	
         </ul>
         <details>
             <summary>Show Theory</summary>
@@ -71,7 +74,17 @@
                      <p>
                          A web browser is a client software used to access web pages. It processes HTML, CSS, and JavaScript to display websites and interacts with web servers to fetch content.
                      </p>
-                             </div>
+                     <p> Other facts are for example that the first website was created in 1991 by Tim Berners-Lee and it was about the World Wide Web project itself. </p>
+                     <p> Combiantors are used to select elements with a specific attribute value. For example, <code>p[title="hello"]</code> selects all paragraph elements with <code>title="hello"</code> <br>
+                    or <code>p[title~="hello"]</code> selects all paragraph elements with <code>title</code> containing the word <code>hello</code>. All the known combinators are: <code>descendant</code>, <code>child</code>, <code>adjacent sibling</code>, <code>general sibling</code>.
+                    the description of the combinators is: <br>
+                    <code>descendant</code> - Selects all elements that are descendants of a specified element <br>
+                    <code>child</code> - Selects all direct children of a specified element <br>
+                    <code>adjacent sibling</code> - Selects all elements that are the adjacent siblings of a specified element <br>
+                    <code>general sibling</code> - Selects all elements that are siblings of a specified element <br>
+                     </p>
+
+                    </div>
         </details>
     </section>
 
@@ -103,6 +116,43 @@
             <li><code>user-select</code> - Sets if the user can select text</li>
             <li><code>pointer-events</code> - Sets if an element can be clicked</li>
         </ul>
+        <details>
+            <summary>Show Theory</summary>
+            <div id="theorySection">
+                <section>
+                    <h3>Theory: What is CSS?</h3>
+                    <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML.</p>
+                    <p>
+                        <strong>Cascading</strong>: Refers to the order in which styles are applied. Styles can be inherited from parent elements or overwritten by more specific rules.
+                    </p>
+                    <h3>Box Model</h3>
+                    <p>
+                        The CSS box model describes the rectangular boxes that are generated for elements in the document tree. It consists of content, padding, border, and margin areas.
+                    </p>
+                    <h3>Flexbox</h3>
+                    <p>
+                        Flexbox is a layout model that allows elements to align and distribute space within a container. It's ideal for one-dimensional layouts like navigation bars or form elements.
+                    </p>
+                    <h3>Grid</h3>
+                    <p>
+                        CSS Grid Layout is a two-dimensional layout system that allows elements to be placed in rows and columns. It's ideal for complex layouts like web pages or applications.
+                    </p>
+                    <p> The <code>display</code> property specifies the display behavior of an element. It can be set to <code>block</code>, <code>inline</code>, <code>inline-block</code>, <code>flex</code>, <code>grid</code>, <code>inline-flex</code>, <code>inline-grid</code>, <code>table</code>, <code>table-row</code>, <code>table-cell</code>, <code>none</code>, <code>inherit</code>, or <code>initial</code>. </p>
+                    <p> The <code>position</code> property specifies the type of positioning method used for an element. It can be set to <code>static</code>, <code>relative</code>, <code>absolute</code>, <code>fixed</code>, <code>sticky</code>, <code>inherit</code>, or <code>initial</code>. </p>
+                    <p> The <code>float</code> property specifies whether an element should float to the left, right, or none. It can be set to
+                    <p> Pseudo classes are used to define a special state of an element. For example, <code>:hover</code> is used to apply styles when a user hovers over an element. Other pseudo classes include <code>:active</code>, <code>:focus</code>, <code>:first-child</code>, <code>:last-child</code>, <code>:nth-child()</code>, <code>:not()</code>, <code>:checked</code>, <code>:disabled</code>, <code>:empty</code>, <code>:target</code>, <code>:visited</code>, <code>:before</code>, and <code>:after</code>. </p>
+                    <p> All the pseudo classes and their description are: <br>
+                    <code>:hover</code> - Selects an element when you mouse over it <br>
+                    <code>:active</code> - Selects the active link <br>
+                    <code>:focus</code> - Selects the element that has focus <br>
+                    <code>:first-child</code> - Selects the first child element of its parent <br>
+                    <code>:last-child</code> - Selects the last child element of its parent <br>
+                    </p>
+                </section>
+                <section>
+                    <p> </p>
+                </section>
+        </details>
     </section>
 
     <footer>
