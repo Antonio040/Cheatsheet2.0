@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Use the default font */
+    margin: 0; /* This makes sure there is no margin around the body */
+    padding: 0; /* Padding is the space inside the border, between the border and the actual image or text. */
+    background-color: #f4f4f9; /* Light grey background */
+    color: #333; /* Text color */
+}
+
+/* Header */
+header {
+    background-color: #04669a;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* 20px top and bottom, 0 left and right */
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none; /* Remove the bullets */
+    margin: 0; /* Remove the default margin */
+    padding: 0; /* Remove the default padding */
+    overflow: hidden; /* overflow is hidden, so the list items that are floated to the left will not be visible outside the ul */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Display the list items horizontally */
+    padding: 10px; /* Add padding to the list items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove the underline */
+    padding: 14px 20px; 
+    display: inline-block; /* Display the list items as block elements, which means that they will take up the full width available */
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #065eb0;
+}
+
+ul {
+    list-style-type: square; /* Use squares as bullets */
+    padding-left: 20px;
+}
+
+code {
+    background-color: #eee;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px; 
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
