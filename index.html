@@ -21,26 +21,71 @@
 
     <section id="html">
         <h2>HTML Cheat Sheet</h2>
-        <ul>
-            <li><code>&lt;!DOCTYPE&gt;</code> - Document Type Declaration new version</li>
-            <li><code>&lt;html&gt;</code> - Root Element</li>
-            <li><code>&lt;head&gt;</code> - Document Metadata</li>
-            <li><code>&lt;body&gt;</code> - Document Content</li>
-            <li><code>&lt;h1&gt;</code> - Heading 1</li>
-            <li><code>&lt;p&gt;</code> - Paragraph</li>
-            <li><code>&lt;a&gt;</code> - Anchor (Link)</li>
-            <li><code>&lt;div&gt;</code> - Division/Container</li>
-            <li><code>&lt;img&gt;</code> - Image</li>
-            <li><code>&lt;ul&gt;</code> - Unordered List</li>
-            <li><code>&lt;ol&gt;</code> - Ordered List</li>
-            <li><code>&lt;li&gt;</code> - List Item</li>
-            <li><code>&lt;table&gt;</code> - Table</li>
-            <li><code>&lt;details&gt;</code> -  collapses a part of text </li>
-            <li><code>&lt;article&gt;</code> - The purpose of the article element is to represent a self-contained piece of content.</li>
-            <li><code>&lt;section&gt;</code> - The purpose of the section is to divide the content into sections by grouping similar content together.</li>
-            <li><code>&lt;aside&gt;</code> - The purpose of the aside element is to represent content that is tangentially related to the content around it.</li>
-            <><code>&lt;a&gt; and &lt;link&gt;</code>The difference is that the <code>&lt;a&gt;</code> element is used to create hyperlinks within the content, while the <code>&lt;link&gt;</code> element is used to link external resources to the document. for example <code>&lt;a href="https://www.example.com"&gt;Example&lt;/a&gt;</code> and <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></li>	
-        </ul>
+        <dl>
+            <dt><code>&lt;!DOCTYPE&gt;</code></dt>
+            <dd>Document Type Declaration, specifies the HTML version.</dd>
+        
+            <dt><code>&lt;html&gt;</code></dt>
+            <dd>Root Element of the HTML document.</dd>
+        
+            <dt><code>&lt;head&gt;</code></dt>
+            <dd>Contains document metadata like title and linked resources.</dd>
+        
+            <dt><code>&lt;body&gt;</code></dt>
+            <dd>Contains the visible content of the document.</dd>
+        
+            <dt><code>&lt;h1&gt;</code></dt>
+            <dd>Main heading (Heading 1) of the document.</dd>
+        
+            <dt><code>&lt;p&gt;</code></dt>
+            <dd>Defines a paragraph of text.</dd>
+        
+            <dt><code>&lt;a&gt;</code></dt>
+            <dd>Creates a hyperlink to other documents or locations.</dd>
+        
+            <dt><code>&lt;div&gt;</code></dt>
+            <dd>Defines a division or section in the document, often used as a container.</dd>
+        
+            <dt><code>&lt;img&gt;</code></dt>
+            <dd>Embeds an image in the document.</dd>
+        
+            <dt><code>&lt;ul&gt;</code></dt>
+            <dd>Defines an unordered list (bulleted).</dd>
+        
+            <dt><code>&lt;ol&gt;</code></dt>
+            <dd>Defines an ordered list (numbered).</dd>
+        
+            <dt><code>&lt;li&gt;</code></dt>
+            <dd>Defines a list item.</dd>
+        
+            <dt><code>&lt;dl&gt;</code></dt>
+            <dd>Defines a description list.</dd>
+        
+            <dt><code>&lt;dt&gt;</code></dt>
+            <dd>Defines a term in a description list.</dd>
+        
+            <dt><code>&lt;dd&gt;</code></dt>
+            <dd>Defines the description or details of a term in a description list.</dd>
+        
+            <dt><code>&lt;table&gt;</code></dt>
+            <dd>Creates a table structure in the document.</dd>
+        
+            <dt><code>&lt;details&gt;</code></dt>
+            <dd>Creates a collapsible section of text.</dd>
+        
+            <dt><code>&lt;article&gt;</code></dt>
+            <dd>Represents a self-contained, independent piece of content.</dd>
+        
+            <dt><code>&lt;section&gt;</code></dt>
+            <dd>Divides content into thematic sections by grouping similar content.</dd>
+        
+            <dt><code>&lt;aside&gt;</code></dt>
+            <dd>Represents content that is tangentially related to the main content.</dd>
+        
+            <dt><code>&lt;a&gt;</code> and <code>&lt;link&gt;</code></dt>
+            <dd>The <code>&lt;a&gt;</code> element creates hyperlinks within the content, while the <code>&lt;link&gt;</code> element links external resources to the document. For example, <code>&lt;a href="https://www.example.com"&gt;Example&lt;/a&gt;</code> creates a link to another page, and <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code> links to an external stylesheet.</dd>
+        </dl>
+        
         <details>
             <summary>Show Theory</summary>
             <div id="theorySection">
@@ -138,32 +183,80 @@
 
     <section id="css">
         <h2>CSS Cheat Sheet</h2>
-        <ul>
-            <li><code>color</code> - Sets text color</li>
-            <li><code>background-color</code> - Sets background color</li>
-            <li><code>font-size</code> - Sets font size</li>
-            <li><code>margin</code> - Sets outside space of elements</li>
-            <li><code>padding</code> - Sets inside space of elements</li>
-            <li><code>border</code> - Sets border around elements</li>
-            <li><code>text-align</code> - Aligns text</li>
-            <li><code>display</code> - Sets how elements are displayed</li>
-            <li><code>position</code> - Sets element position</li>
-            <li><code>float</code> - Floats elements</li>
-            <li><code>flexbox</code> - Aligns elements in a flexible container</li>
-            <li><code>grid</code> - Aligns elements in a grid container</li>
-            <li><code>animation</code> - Animates elements</li>
-            <li><code>transition</code> - Adds transition effects</li>
-            <li><code>transform</code> - Transforms elements in a way that they are displayed like this <code>rotate(45deg)</code></li>
-            <li><code>box-shadow</code> - Adds shadow to elements</li>
-            <li><code>text-shadow</code> - Adds shadow to text</li>
-            <li><code>filter</code> - Adds visual effects like blur or grayscale</li>
-            <li><code>opacity</code> - Sets element transparency</li>
-            <li><code>z-index</code> - Sets element stacking order</li>
-            <li><code>overflow</code> - Sets how content that overflows an element is handled</li>
-            <li><code>cursor</code> - Sets mouse cursor type</li>
-            <li><code>user-select</code> - Sets if the user can select text</li>
-            <li><code>pointer-events</code> - Sets if an element can be clicked</li>
-        </ul>
+        <dl>
+            <dt><code>color</code></dt>
+            <dd>Sets the text color.</dd>
+        
+            <dt><code>background-color</code></dt>
+            <dd>Sets the background color of an element.</dd>
+        
+            <dt><code>font-size</code></dt>
+            <dd>Sets the size of the font.</dd>
+        
+            <dt><code>margin</code></dt>
+            <dd>Sets the space outside an element (margin).</dd>
+        
+            <dt><code>padding</code></dt>
+            <dd>Sets the space inside an element (padding).</dd>
+        
+            <dt><code>border</code></dt>
+            <dd>Defines the border around an element.</dd>
+        
+            <dt><code>text-align</code></dt>
+            <dd>Aligns the text horizontally within an element.</dd>
+        
+            <dt><code>display</code></dt>
+            <dd>Specifies how an element is displayed (block, inline, etc.).</dd>
+        
+            <dt><code>position</code></dt>
+            <dd>Specifies the positioning method of an element (static, relative, absolute, fixed, sticky).</dd>
+        
+            <dt><code>float</code></dt>
+            <dd>Floats elements to the left or right of their container.</dd>
+        
+            <dt><code>flexbox</code></dt>
+            <dd>Aligns elements in a flexible container using the Flexbox model.</dd>
+        
+            <dt><code>grid</code></dt>
+            <dd>Aligns elements in a grid layout container.</dd>
+        
+            <dt><code>animation</code></dt>
+            <dd>Defines animations for elements.</dd>
+        
+            <dt><code>transition</code></dt>
+            <dd>Adds transition effects between element states.</dd>
+        
+            <dt><code>transform</code></dt>
+            <dd>Transforms elements, such as rotating them (e.g., <code>rotate(45deg)</code>).</dd>
+        
+            <dt><code>box-shadow</code></dt>
+            <dd>Adds shadow effects around an element's box.</dd>
+        
+            <dt><code>text-shadow</code></dt>
+            <dd>Adds shadow effects to text.</dd>
+        
+            <dt><code>filter</code></dt>
+            <dd>Applies visual effects to elements (e.g., blur, grayscale).</dd>
+        
+            <dt><code>opacity</code></dt>
+            <dd>Sets the transparency level of an element.</dd>
+        
+            <dt><code>z-index</code></dt>
+            <dd>Specifies the stacking order of elements.</dd>
+        
+            <dt><code>overflow</code></dt>
+            <dd>Determines how to handle content that overflows an element's box.</dd>
+        
+            <dt><code>cursor</code></dt>
+            <dd>Sets the type of mouse cursor to be displayed when hovering over an element.</dd>
+        
+            <dt><code>user-select</code></dt>
+            <dd>Controls whether text can be selected by the user.</dd>
+        
+            <dt><code>pointer-events</code></dt>
+            <dd>Specifies if an element can be the target of mouse events such as clicks.</dd>
+        </dl>
+        
         <details>
             <summary>Show Theory</summary>
             <div id="theorySection">
