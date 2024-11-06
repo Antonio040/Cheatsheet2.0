@@ -68,7 +68,28 @@
             <dd>Defines the description or details of a term in a description list.</dd>
         
             <dt><code>&lt;table&gt;</code></dt>
-            <dd>Creates a table structure in the document.</dd>
+            <dd>Defines a table.</dd>
+
+            <dt><code>&lt;tr&gt;</tr></code></dt>
+            <dd>Defines a row in a table.</dd>
+
+            <dt><code>&lt;thead&gt;</code></dt>
+            <dd>Groups the header content in a table.</dd>
+
+            <dt><code>&lt;th&gt;</code></dt> 
+            <dd>Defines a header cell in a table.</dd>
+
+            <dt><code>&lt;tbody&gt;</code></dt>
+            <dd>Groups the body content in a table.</dd>
+
+            <dt><code>&lt;td&gt;</code></dt>
+            <dd>Defines a data cell in a table.</dd>
+
+            <dt><code>&lt;tfoot&gt;</code></dt>
+            <dd>Groups the footer content in a table.</dd>
+
+            <dt><code>&lt;td&gt;</code></dt> 
+            <dd>Defines a data cell in a table.</dd>
         
             <dt><code>&lt;details&gt;</code></dt>
             <dd>Creates a collapsible section of text.</dd>
@@ -216,7 +237,16 @@
         
             <dt><code>flexbox</code></dt>
             <dd>Aligns elements in a flexible container using the Flexbox model.</dd>
-        
+            
+            <dt><code>list-style-position</code></dt>
+            <dd>Specifies the position of the list-item marker (inside or outside the list item).</dd>
+
+            <dt><code>list-style-image</code></dt>
+            <dd>Specifies an image as the list-item marker. example: <code>list-style-image: url('image.png');</code></dd>
+
+            <dt><code>list-style-type</code></dt>
+            <dd>Specifies the type of list-item marker (disc, circle, square, decimal, etc.).</dd>
+            
             <dt><code>grid</code></dt>
             <dd>Aligns elements in a grid layout container.</dd>
         
@@ -293,7 +323,11 @@
                     <code>Internal CSS</code> - Internal CSS is used to define a unique style for a single HTML page. It's placed within the <code>&lt;style&gt;</code> element in the <code>&lt;head&gt;</code> section. <br>
                     <code>Inline CSS</code> - Inline CSS is used to apply a unique style to a single element. It's placed within the <code>style</code> attribute of an HTML element. <br>
                     <code>External CSS</code> - External CSS is used to define the style of multiple HTML pages. It's placed in a separate CSS file and linked to the HTML pages using the <code>&lt;link&gt;</code> element. <br>
-        </details>
+                    </p>
+                    <p>1. Black dotted border of 1 px width. <code>border: 1px dotted black;</code>
+                        2. Solid border of 1 px width having a red color and rounded corners: <code>1px solid red; border-radius: 10px;</code> 
+                        3. Merge the borders of table cells so that they appear as one line: <code>border-collapse: collapse;</code></p>
+                </details>
     </section>
 
     <footer>
